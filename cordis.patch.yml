@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-wsl-browser
+      name: dsh-wsl-browser
+      config:
+        timeoutMs: 15000
