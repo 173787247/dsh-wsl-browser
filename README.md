@@ -8,6 +8,18 @@ Part of **[dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)**.
 
 [中文说明 → README.zh.md](./README.zh.md)
 
+## Where it sits
+
+Opens an http(s) URL in the Windows default browser. It does not fetch the page inside WSL.
+
+```mermaid
+flowchart LR
+  agent["dsh agent in WSL"] --> tool["win_open_url"] --> win["Windows default browser"]
+```
+
+Suite diagram and version snapshot: [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit#how-the-pieces-fit). This plugin is **0.1.0** (daily; also in llm). Do not copy that matrix into this README.
+
+
 ---
 ## Compatibility
 

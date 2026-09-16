@@ -8,6 +8,18 @@ DeepSeek Harness 工具：**`win_open_url`** — 从 WSL 用 **Windows 默认浏
 
 [English → README.md](./README.md)
 
+## 在套件里的位置
+
+用 Windows 默认浏览器打开 http(s) 链接。不在 WSL 里把页面抓下来。
+
+```mermaid
+flowchart LR
+  agent["WSL 里的 dsh"] --> tool["win_open_url"] --> win["Windows 默认浏览器"]
+```
+
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.1.0**（daily，也在 llm）。不要把那份总表抄进本 README。
+
+
 ---
 ## 兼容性
 
